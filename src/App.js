@@ -41,8 +41,6 @@ function App() {
             }
         };
 
-        console.log(process.env.REACT_APP_RAPID_API_KEY)
-        console.log(process.env.REACT_APP_RAPID_API_HOST)
 
         try {
             const response = await fetch(url, options);
